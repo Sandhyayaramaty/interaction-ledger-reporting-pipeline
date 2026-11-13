@@ -20,8 +20,6 @@ final_state.csv
 # Sensitive encryption keys
 solution/keys*.json
 
-# Unused Assignment B
-assignment-b-workflow/
 
 # Local development and debugging helpers
 solution/processing/diagnose_event_validation.py
