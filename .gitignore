@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Environment and database files
+.env
+*.db
+*.sqlite*
+
+# Generated input data and reports
+data/
+data_large/
+data_test/
+reports/
+reports_test/
+final_state.csv
+
+# Sensitive encryption keys
+solution/keys*.json
+
+# Unused Assignment B
+assignment-b-workflow/
+
+# Local development and debugging helpers
+solution/processing/diagnose_event_validation.py
+solution/processing/inspect_dispositions.py
+solution/processing/inspect_events.py
+solution/processing/inspect_lead_file.py
+solution/processing/verify_call_counts.py
